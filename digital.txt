@@ -1,0 +1,9 @@
+Carry is discarded in the addition of numbers represented in 2's complement form.
+
+The range of 1’s complement form is from (-2(n-1)-1) to (2(n-1)-1). i.e., Range of 6 bit 1’s complement form binary number is from -(25-1) to (25-1) which is minimum -31 (i.e., 100000) to maximum value +31 (i.e., 011111).
+
+when storing a signed integer in a 16-bit word, we should copy the original byte to the less significant byte of the word and fill the more significant byte with the MSB of the original byte to preserve the sign of the number.
+
+The subtraction of a binary number Y from another binary number X, done by adding the 2's complement of Y to X, result in a binary number without overflow. This implies that the result is NEGATIVE AND IS IN 2'S COMPLEMENT FORM
+
+Two 2' s complement numbers having sign bits x and y added and the sign bit of the result is z. Then, the occurrence of overflow is indicated by the Boolean function.
